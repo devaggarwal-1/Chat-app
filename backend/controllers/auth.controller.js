@@ -1,7 +1,7 @@
 import User from "../models/user.model.js";
 import bcrypt from "bcryptjs"
 import generateTokenAndSetCookie from "../utils/generateToken.js";
-import { Await } from "react-router-dom";
+
 
 export const signup = async (req, res) => {
     try {
