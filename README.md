@@ -1,4 +1,4 @@
-### MERN Real Time Chat App | JWT, Socket.io
+# MERN Real Time Chat App | JWT, Socket.io
 This project is a real-time chat application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. Users can register, log in, and send messages to each other in real-time.
 
 ### [Live Demo](https://chat-app-utnq.onrender.com)
