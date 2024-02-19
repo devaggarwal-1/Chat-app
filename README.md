@@ -3,7 +3,7 @@ This project is a real-time chat application built using the MERN (MongoDB, Expr
 
 ### [Live Demo](https://chat-app-utnq.onrender.com)
 
-Some Features:
+### Some Features:
 
 -  Tech stack: MERN + Socket.io + TailwindCSS + Daisy UI
 -  Authentication && Authorization with JWT
@@ -12,3 +12,33 @@ Some Features:
 -  Global state management with Zustand
 -  Error handling both on the server and on the client
 
+### Prerequisites:
+- Node.js and npm installed on your machine.
+- MongoDB Atlas account or a local MongoDB server set up.
+
+### Getting Started:
+
+Clone the repository:
+```shell
+git clone https://github.com/yourusername/chat-app.git
+```
+
+Setup .env file:
+```js
+PORT=...
+MONGO_DB_URI=...
+JWT_SECRET=...
+NODE_ENV=...
+```
+
+Build the app:
+
+```shell
+npm run build
+```
+
+Start the app:
+
+```shell
+npm start
+```
